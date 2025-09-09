@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+.title{
+    background-color: rgba(53, 158, 79, 0.699);
+    width: 250px;
+    padding: 8px, 16px;
+    margin: 0 auto;
+    border: 8px solid   rgba(30, 109, 49, 0.699);
+}
+ h1{
+    text-align: center;
+    color: rgba(30, 109, 49, 0.699);
+    
+ }
+ .list{
+    width: 250px;
+    background-color: rgb(222, 222, 228);
+    padding: 8px, 16px;
+    margin: 16px auto;
+    border: 8px solid   rgba(134, 134, 134, 0.699);
+ }
+
+li{
+     color: rgba(134, 134, 134, 0.699);
+     margin:8px 16px 8px 0px;
+     border: 6px solid;
+     padding: 4px;
+     
+    }
+.blt{
+    background-color:rgb(223, 51, 51);
+    border-color: rgb(30, 68, 30);
+}
+.pbj{
+    background-color:rgb(255, 126, 20);
+    border-color: rgb(63, 16, 150);
+   
+}
+.toast{
+    background-color:rgb(226, 173, 103);
+    border-color: rgb(240, 255, 37);
+}
+
+
+ *{
+    font-family: 'Times New Roman', Times, serif;
+}
